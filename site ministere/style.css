@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+body{
+    margin: auto;
+    padding: auto;
+    background-color:white;
+    /* margin-top: 0px !important;
+    margin-bottom: 0px !important; */
+
+}
+button{
+    all:unset;
+    cursor:pointer;
+}
+.test{
+    display: flex;
+    justify-content: space-between;
+    background: url('./image/Merged_bar-57.svg') no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding: 30px;
+    font-family: "Montserrat",sans-serif;
+    word-spacing:30px ;}
+
+a{
+    text-decoration: none;
+}
+.p1{
+    font-family: "Montserrat",sans-serif;
+    padding:auto;
+    margin-top:0;
+    display: grid;
+    background-color: rgb(250, 210, 65);
+    text-align: center;    
+}
+
+#p2{
+    color:rgb(40, 66, 131) ;
+}
+.s2{
+    display:flex;
+    font-family: "Montserrat",sans-serif;
+    padding:2em;
+}
+.s2_img{
+    width: 40vw;
+    min-width:10px;
+}
+.sante{
+  width: 50%;
+}
+.s2_Text{
+    width: 50%;
+    text-align: center;
+}
+.title1{
+    text-align: center;
+    color:rgb(40, 66, 131) ;
+    font-family: "Montserrat",sans-serif;
+}
+.container{ 
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;  
+    font-family: "Montserrat",sans-serif;
+}
+.item{
+    align-self :center ;
+    justify-self : center;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.s3{
+    background-color: rgb(40, 66, 131);
+    font-family: "Montserrat",sans-serif;
+}
+.s4{
+    display:flex;
+    justify-content: space-between;
+    padding:5em;
+} 
+.title2{
+    text-align: center;
+    color:white;
+}
+.phrases{
+    color:white;
+    font-family: "Montserrat",sans-serif;
+}
+#phrase1{
+    color:black;
+    font-family: "Montserrat",sans-serif;
+}
+.appel{
+    font-weight:bold;
+    color:rgb(250, 210, 65);
+}
+.contact{
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+}
+#button3{
+    border-radius: 8px;
+    background-color:rgb(250, 210, 65) ;
+    border: none;
+    color: rgb(40, 66, 131);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.link{
+    text-decoration: underline;
+    color:white;
+}
+.s5{
+    font-family: "Montserrat",sans-serif;
+    padding:auto;
+    margin-top:0;
+    display: grid;
+    background-color: rgb(169, 208, 244);
+    text-align: center; 
+    width: 100%;
+}
+.logo{
+    display:grid;
+    justify-content: center;
+    justify-items: center;
+    align-items:center;
+    width: 100%;
+}
+.s6{
+    display:flex;
+    justify-content: space-between;
+    padding:5em;
+    font-family: "Montserrat",sans-serif;
+    color: rgb(104, 143, 211);
+}
+.button2{
+    border-radius: 8px;
+    background-color:rgb(40, 66, 131) ;
+    border: none;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.s2_Text{
+    width: 50%;
+    text-align: center;
+}
+.testbutton{
+    font-size: 16px;
+    border: 1px solid ;
+    border-radius: 0.5em;
+    width: 6em;
+    height: 3em;
+    background-color: transparent;
+    font-family: "Montserrat",sans-serif;
+    appearance: none;
+} 
+#phrase1{
+    color:rgb(104, 143, 211) ;
+}
+.sentences{
+    font-weight:bold;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+
+}
+#phrase2{
+    color: black;
+}
+ #phrase3{
+    color: rgb(50, 149, 50);
+}
+select{
+    background: url("image/Icon\ material-language.svg") 96% / 20% no-repeat transparent;
+}
+footer{
+    background-color: rgb(40, 66, 131);
+    height: 100px;
+}
